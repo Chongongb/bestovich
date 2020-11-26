@@ -1,0 +1,22 @@
+let a = prompt("enter A");
+let b = prompt("enter B");
+const op = prompt("enter op");
+function calculate(op) {
+let ans;
+switch(op) {
+case "+":
+ans = Number(a) + Number(b);
+break;
+case "-":
+ans = Number(a) - Number(b);
+break;
+case "*":
+ans = Number(a) * Number(b);
+break;;
+case "/":
+ans = Number(a) / Number(b);
+break;
+default:
+ans = "Wrong op"; }
+return ans;
+}
